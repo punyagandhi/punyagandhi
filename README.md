@@ -9,6 +9,7 @@
 - 🔭 Researching, Creating Startups, and Paving my own Path.
 - 🌱 Getting Ready for AAAI, IEEE, ISEF, STS
 - 📫 How to reach me: gandhi.punya@gmail.com
+- SOME REPOS ARE ON PRIVATE! Contact me for further clarification/info. Will GLADLY share to an extent
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/punyagandhi/) [![Gmail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gandhi.punya@gmail.com) [![GitHub followers](https://img.shields.io/github/followers/YOUR-USERNAME?label=Follow&style=social)](https://github.com/punyagandhi?tab=followers)
 
