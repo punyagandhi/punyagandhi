@@ -32,7 +32,7 @@ const punya = {
 
 ## Traction💨
 Recognition matters. Work good but Project yourself even better. No time like the present ;D
-![Profile views](https://komarev.com/ghpvc/?username=punyagandhi)
+- ![Profile views](https://komarev.com/ghpvc/?username=punyagandhi)
 
 ## Progress...📈
 - The amount of progress ive made so far, including what I use the most. "Icarus threw his head back and smiled because he finally flew..." - Fiona
