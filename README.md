@@ -17,6 +17,7 @@
 ![Skills](https://skillicons.dev/icons?i=react,html,css,python,java,ts,js,figma,arduino,discord,javascript,vscode,github,cloudflare,supabase,convex,freebuff)
 
 ## punyagandhi.js ---- Tenacity💪
+the drive and beggining of it all, what objectively defines me and what I'm currently working on, and trying to improve. People make mistakes, but the biggest one is not learning from them.
 ```js
 const punya = {
   pronouns: ["he", "him", "his"],
