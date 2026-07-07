@@ -14,7 +14,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/punyagandhi/) [![Gmail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gandhi.punya@gmail.com) [![GitHub followers](https://img.shields.io/github/followers/YOUR-USERNAME?label=Follow&style=social)](https://github.com/punyagandhi?tab=followers)
 
 
-![Skills](https://skillicons.dev/icons?i=react,html,css,python,java,ts,js,figma,arduino,discord,javascript,vscode,github,cloudflare,supabase,convex,freebuff)
+![Skills](https://skillicons.dev/icons?i=react,html,css,python,java,ts,js,figma,arduino,discord,javascript,vscode,github,cloudflare,supabase,convex,freebuff,cpp,firebase,canva,go,php,ruby)
 
 ## punyagandhi.js ---- Tenacity💪
 the drive and beggining of it all, what objectively defines me and what I'm currently working on, and trying to improve. People make mistakes, but the biggest one is not learning from them.
