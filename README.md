@@ -13,7 +13,7 @@ Founder of IVISYX
 
 ![Skills](https://skillicons.dev/icons?i=react,html,css,python,java,ts,js,figma,arduino,discord,javascript,vscode,github,cloudflare,supabase,convex,freebuff)
 
-## punyagandhi.js ---- Striving...
+## punyagandhi.js ---- Tenacity
 ```js
 const punya = {
   pronouns: "he" | "him" | "his",
