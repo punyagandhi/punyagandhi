@@ -1,11 +1,11 @@
 ## Hi My Name is Punya A. Gandhi 
-Exhibiting Artist @ Stoutsberg Sourland African American Art Museum
-Public Speaker @ Toastmasters YLP
-Martial Artist @ Amerikick Martial Arts
-Founder of IVISYX
+🎨 Exhibiting Artist @ Stoutsberg Sourland African American Art Museum
+🌍 Public Speaker @ Toastmasters YLP
+🥋 Martial Artist @ Amerikick Martial Arts
+👀 Founder of IVISYX
 
 ## 🚀 About Me
-- 🔭 Researching, Creating Startups. 
+- 🔭 Researching, Creating Startups, and Paving my own Path.
 - 🌱 Getting Ready for AAAI, IEEE, ISEF, STS
 - 📫 How to reach me: gandhi.punya@gmail.com
 
@@ -13,7 +13,7 @@ Founder of IVISYX
 
 ![Skills](https://skillicons.dev/icons?i=react,html,css,python,java,ts,js,figma,arduino,discord,javascript,vscode,github,cloudflare,supabase,convex,freebuff)
 
-## punyagandhi.js ---- Tenacity
+## punyagandhi.js ---- Tenacity💪
 ```js
 const punya = {
   pronouns: ["he", "him", "his"],
@@ -25,6 +25,8 @@ const punya = {
 ```
 
 ![Profile views](https://komarev.com/ghpvc/?username=punyagandhi)
+
+## Streaks!!!🔥
 ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=punyagandhi)
 
 ## Contact Me!
