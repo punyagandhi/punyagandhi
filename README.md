@@ -31,6 +31,7 @@ const punya = {
 - Fatigue detection & driving safety — [read the writeup →](https://doi.org/10.5281/zenodo.20558213)
 
 ## Traction💨
+Recognition matters. Work good but Project yourself even better. No time like the present ;D
 ![Profile views](https://komarev.com/ghpvc/?username=punyagandhi)
 
 ## Progress...📈
