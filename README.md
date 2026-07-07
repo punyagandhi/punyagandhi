@@ -27,6 +27,6 @@ const punya = {
 ![Profile views](https://komarev.com/ghpvc/?username=punyagandhi)
 ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=punyagandhi)
 
-##Contact Me!
+## Contact Me!
 ### company email: ivisyx@gmail.com
 Number: +1 609 516 6779
