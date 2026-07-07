@@ -24,6 +24,8 @@ const punya = {
   researching: "Fatigue and the critical and general application of driving safety"
 }
 ```
+### 🔬 Research (Preprint - In-Progress)
+- Fatigue detection & driving safety — [read the writeup →](https://doi.org/10.5281/zenodo.20558213)
 
 ![Profile views](https://komarev.com/ghpvc/?username=punyagandhi)
 
