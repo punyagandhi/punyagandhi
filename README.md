@@ -26,7 +26,7 @@ const punya = {
 
 ![Profile views](https://komarev.com/ghpvc/?username=punyagandhi)
 
-## Streaks!!!🔥
+## Streaks!🔥
 ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=punyagandhi)
 
 ## Contact Me!
