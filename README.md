@@ -1,9 +1,9 @@
 ## Hi My Name is Punya A. Gandhi 
-🎨 Exhibiting Artist @ Stoutsberg Sourland African American Art Museum
-🌍 Public Speaker @ Toastmasters YLP
-🥋 Martial Artist @ Amerikick Martial Arts
-🔧 Mechanical & Entrepreneurship @ FRC 293; FMA
-👀 Founder of IVISYX
+- 🎨 Exhibiting Artist @ Stoutsberg Sourland African American Art Museum
+- 🌍 Public Speaker @ Toastmasters YLP
+- 🥋 Martial Artist @ Amerikick Martial Arts
+- 🔧 Mechanical & Entrepreneurship @ FRC 293; FMA
+- 👀 Founder of IVISYX
 
 ## 🚀 About Me
 - 🔭 Researching, Creating Startups, and Paving my own Path.
