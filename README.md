@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner-fixed.svg" alt="Banner" width="100%">
+  <img src="./assets/banner.svg" alt="Banner" width="100%">
 </p>
 
 ## Hi My Name is Punya A. Gandhi 
