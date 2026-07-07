@@ -45,5 +45,7 @@ const punya = {
 
 ## Contact Me!
 will most likely reply back within 1-2 hours
-company email: ivisyx@gmail.com
-Number: +1 609 516 6779
+- company email: ivisyx@gmail.com
+- personal email: gandhi.punya@gmail.com
+- Number: +1 609 516 6779 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/16095166779) [![Call](https://img.shields.io/badge/Call-4CAF50?style=flat-square&logo=phone&logoColor=white)](tel:+16095166779) [![Text](https://img.shields.io/badge/Text-34B7F1?style=flat-square&logo=messenger&logoColor=white)](sms:+16095166779) [![FaceTime](https://img.shields.io/badge/FaceTime-000000?style=flat-square&logo=apple&logoColor=white)](facetime:+16095166779)
+  
