@@ -45,5 +45,5 @@ const punya = {
 
 ## Contact Me!
 will most likely reply back within 1-2 hours
-### company email: ivisyx@gmail.com
-### Number: +1 609 516 6779
+company email: ivisyx@gmail.com
+Number: +1 609 516 6779
