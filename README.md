@@ -34,11 +34,11 @@ const punya = {
 ![Profile views](https://komarev.com/ghpvc/?username=punyagandhi)
 
 ## Progress...
-The amount of progress ive made so far, including what I use the most. "Icarus threw his head back and smiled because he finally flew..." - Fiona
+- The amount of progress ive made so far, including what I use the most. "Icarus threw his head back and smiled because he finally flew..." - Fiona
 <img width="480" height="534" alt="skill_bars" src="https://github.com/user-attachments/assets/024ce2a5-8d7e-477c-9e98-cb0f54393035" />
 
 ## Streaks!!!🔥
-try to stay as dedicated and consistent as possible but some updates take time...
+- try to stay as dedicated and consistent as possible but some updates take time...
 ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=punyagandhi)
 
 ## Contact Me!
