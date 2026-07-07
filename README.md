@@ -1,4 +1,6 @@
-![readme-banner-matrix](https://github.com/user-attachments/assets/004f3a8c-8c4a-434b-bbe6-2f15839d1a05)
+<p align="center">
+  <img src="./assets/readme-banner-matrix.svg" alt="Banner" width="100%">
+</p>
 
 ## Hi My Name is Punya A. Gandhi 
 - 🎨 Exhibiting Artist @ Stoutsberg Sourland African American Art Museum
