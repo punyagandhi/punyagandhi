@@ -9,14 +9,14 @@ Founder of IVISYX
 - 🌱 Getting Ready for AAAI, IEEE, ISEF, STS
 - 📫 How to reach me: gandhi.punya@gmail.com
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/punyagandhi/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/punyagandhi/) [![Gmail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gandhi.punya@gmail.com)
 
 ![Skills](https://skillicons.dev/icons?i=react,html,css,python,java,ts,js,figma,arduino,discord,javascript,vscode,github,cloudflare,supabase,convex,freebuff)
 
 ## punyagandhi.js ---- Tenacity
 ```js
 const punya = {
-  pronouns: "he" | "him" | "his",
+  pronouns: ["he", "him", "his"],
   nationality: "Indian",
   code: ["C++", "Arduino", "React", "HTML", "CSS", "Python", "Java", "TypeScript"],
   tools: ["React", "Firebase", "Figma", "Supabase", "convex"],
@@ -25,4 +25,8 @@ const punya = {
 ```
 
 ![Profile views](https://komarev.com/ghpvc/?username=punyagandhi)
-![Stats](https://github-readme-stats.vercel.app/api?username=punyagandhi&show_icons=true)
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=punyagandhi)
+
+##Contact Me!
+### company email: ivisyx@gmail.com
+Number: +1 609 516 6779
