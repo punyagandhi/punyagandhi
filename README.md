@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Punya Gandhi Banner">
-</p>
 
 ## Hi My Name is Punya A. Gandhi 
 - 🎨 Exhibiting Artist @ Stoutsberg Sourland African American Art Museum
