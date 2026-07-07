@@ -2,7 +2,7 @@
 🎨 Exhibiting Artist @ Stoutsberg Sourland African American Art Museum
 🌍 Public Speaker @ Toastmasters YLP
 🥋 Martial Artist @ Amerikick Martial Arts
-🔧 Mechanical @ FRC 293; FMA
+🔧 Mechanical & Entrepreneurship @ FRC 293; FMA
 👀 Founder of IVISYX
 
 ## 🚀 About Me
