@@ -19,7 +19,7 @@ const punya = {
   pronouns: ["he", "him", "his"],
   nationality: "Indian",
   code: ["C++", "Arduino", "React", "HTML", "CSS", "Python", "Java", "TypeScript"],
-  tools: ["React", "Firebase", "Figma", "Supabase", "convex"],
+  tools: ["React", "Firebase", "Figma", "Supabase", "Convex"],
   researching: "Fatigue and the critical and general application of driving safety"
 }
 ```
