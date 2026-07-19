@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 244"
-     width="680" height="244">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 304"
+     width="680" height="304">
   <defs>
     <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#1a0b2e" />
@@ -16,7 +16,7 @@
     </filter>
 
     <clipPath id="cardClip">
-      <rect x="0" y="0" width="680" height="244" rx="10" />
+      <rect x="0" y="0" width="680" height="304" rx="10" />
     </clipPath>
   </defs>
 
@@ -32,12 +32,12 @@
     }
     @keyframes fall {
       from { transform: translateY(0); }
-      to   { transform: translateY(686px); }
+      to   { transform: translateY(746px); }
     }
   </style>
 
   <g clip-path="url(#cardClip)">
-    <rect x="0" y="0" width="680" height="244" fill="url(#cardBg)" />
+    <rect x="0" y="0" width="680" height="304" fill="url(#cardBg)" />
 
     <!-- falling binary background effect -->
     <text class="rain-col" x="24" y="-442" style="animation-duration:5.62s; animation-delay:-0.85s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="24" dy="17">%</tspan><tspan x="24" dy="17">0</tspan><tspan x="24" dy="17">1</tspan><tspan x="24" dy="17">@</tspan><tspan x="24" dy="17">1</tspan><tspan x="24" dy="17">$</tspan><tspan x="24" dy="17">&amp;</tspan><tspan x="24" dy="17">0</tspan><tspan x="24" dy="17">@</tspan><tspan x="24" dy="17">β</tspan><tspan x="24" dy="17">0</tspan><tspan x="24" dy="17">1</tspan><tspan x="24" dy="17">*</tspan><tspan x="24" dy="17">*</tspan><tspan x="24" dy="17">1</tspan><tspan x="24" dy="17">β</tspan><tspan x="24" dy="17">1</tspan><tspan x="24" dy="17">@</tspan><tspan x="24" dy="17">*</tspan><tspan x="24" dy="17">0</tspan><tspan x="24" dy="17">&amp;</tspan><tspan x="24" dy="17">1</tspan><tspan x="24" dy="17">β</tspan><tspan x="24" dy="17">%</tspan><tspan x="24" dy="17">%</tspan><tspan x="24" dy="17">&amp;</tspan></text>
@@ -79,8 +79,8 @@
       <animateTransform attributeName="transform" type="translate"
                          from="-12,0" to="0,0"
                          begin="0.20s" dur="0.45s" fill="freeze" />
-      <text x="28" y="116" font-weight="bold" fill="#d896ff" filter="url(#neonGlow)">Now</text>
-      <text x="138" y="116" fill="#e6d1ff">Scaling IVISYX, ISEF &amp; STS Prep, IEEE etc. Prep</text>
+      <text x="28" y="136" font-weight="bold" fill="#d896ff" filter="url(#neonGlow)">Now</text>
+      <text x="138" y="136" fill="#e6d1ff">Scaling IVISYX, ISEF &amp; STS Prep, IEEE etc. Prep</text>
     </g>
 
     <g opacity="0" transform="translate(-12,0)">
@@ -89,23 +89,23 @@
       <animateTransform attributeName="transform" type="translate"
                          from="-12,0" to="0,0"
                          begin="0.40s" dur="0.45s" fill="freeze" />
-      <text x="28" y="156" font-weight="bold" fill="#d896ff" filter="url(#neonGlow)">Stack</text>
-      <text x="138" y="156" fill="#e6d1ff">Arduino, C++, Python, JS, React, Git, LaTeX, Linux</text>
+      <text x="28" y="196" font-weight="bold" fill="#d896ff" filter="url(#neonGlow)">Stack</text>
+      <text x="138" y="196" fill="#e6d1ff">Arduino, C++, Python, JS, React, Git, LaTeX, Linux</text>
     </g>
 
-    <line x1="28" y1="194" x2="652" y2="194"
+    <line x1="28" y1="254" x2="652" y2="254"
           stroke="#9d4edd" stroke-width="1" opacity="0.35" />
 
     <clipPath id="quoteClip">
-      <rect x="28" y="198" width="0" height="20">
+      <rect x="28" y="258" width="0" height="20">
         <animate attributeName="width" from="0" to="632"
                  begin="1.35s" dur="2.97s"
                  fill="freeze" calcMode="linear" />
       </rect>
     </clipPath>
-    <text x="28" y="214" font-size="14"
+    <text x="28" y="274" font-size="14"
           fill="#e6d1ff" opacity="0.85" clip-path="url(#quoteClip)">&gt; Hard work beats talent when talent doesn't work hard.- Tim Notke</text>
-    <rect x="604.88" y="200" width="7" height="16"
+    <rect x="604.88" y="260" width="7" height="16"
           fill="#c77dff" opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.01;0.5;1"
                begin="1.35s" dur="2.97s" fill="freeze" />
@@ -115,6 +115,6 @@
   </g>
 
   <!-- outer neon border, drawn last so it sits on top of the clipped content -->
-  <rect x="1" y="1" width="678" height="242" rx="10"
+  <rect x="1" y="1" width="678" height="302" rx="10"
         fill="none" stroke="#9d4edd" stroke-width="2" filter="url(#neonGlow)" />
 </svg>

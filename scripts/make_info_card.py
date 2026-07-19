@@ -24,15 +24,12 @@ ROWS = [
     ("Now", "Scaling IVISYX, ISEF & STS Prep, IEEE etc. Prep"),
     ("Stack", "Arduino, C++, Python, JS, React, Git, LaTeX, Linux"),
 ]
-
-
-
 QUOTE = "> Hard work beats talent when talent doesn't work hard.- Tim Notke"
 # ------------------------------------------------------------------------
 
 WIDTH = 680
 TITLE_BAR_H = 34
-ROW_H = 40
+ROW_H = 60
 PADDING_TOP = 26
 PADDING_LEFT = 28
 FONT_SIZE = 16
