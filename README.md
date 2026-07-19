@@ -14,12 +14,12 @@
 
 <div align="center">
 
-<h3><code>punya@github ~ $ ./contributions.sh</code></h3>
+## Custom Contribution Map 😝
 <img src="./contrib-heatmap.svg" width="860" />
 
 <br><br>
 
-<h3><code>punya@github ~ $ whoami</code></h3>
+## Who Am I - 😎
 <table>
   <tr>
     <td valign="top"><img src="./avi-ascii.svg" width="370" /></td>
