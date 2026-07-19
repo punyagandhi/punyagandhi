@@ -19,8 +19,6 @@
 <img src="./contrib-heatmap.svg" width="860" />
 </div>
 
-<br><br>
-
 ## Who Am I - 😎
 <div align="center">
 <table>
