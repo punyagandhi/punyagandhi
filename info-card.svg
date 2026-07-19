@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 168"
+     width="490" height="168">
+  <style>
+    text {
+      font-family: 'Courier New', monospace;
+      font-size: 15px;
+    }
+  </style>
+  <rect x="0" y="0" width="490" height="168" rx="8"
+        fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- title bar -->
+  <rect x="0" y="0" width="490" height="34" rx="8"
+        fill="#30363d" />
+  <rect x="0" y="26" width="490" height="8" fill="#30363d" />
+  <circle cx="18" cy="17.0" r="5" fill="#ff5f56" />
+  <circle cx="36" cy="17.0" r="5" fill="#ffbd2e" />
+  <circle cx="54" cy="17.0" r="5" fill="#27c93f" />
+  <text x="245.0" y="22.0" text-anchor="middle" fill="#8b949e">punya@github</text>
+
+
+    <g opacity="0" transform="translate(-12,0)">
+      <animate attributeName="opacity" from="0" to="1"
+               begin="0.00s" dur="0.4s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate"
+                         from="-12,0" to="0,0"
+                         begin="0.00s" dur="0.4s" fill="freeze" />
+      <text x="20" y="65" font-weight="bold" fill="#39d353">Role</text>
+      <text x="110" y="65" fill="#c9d1d9">Fullstack Developer, Researcher</text>
+    </g>
+
+    <g opacity="0" transform="translate(-12,0)">
+      <animate attributeName="opacity" from="0" to="1"
+               begin="0.18s" dur="0.4s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate"
+                         from="-12,0" to="0,0"
+                         begin="0.18s" dur="0.4s" fill="freeze" />
+      <text x="20" y="99" font-weight="bold" fill="#39d353">Now</text>
+      <text x="110" y="99" fill="#c9d1d9">Building IVISYX</text>
+    </g>
+
+    <g opacity="0" transform="translate(-12,0)">
+      <animate attributeName="opacity" from="0" to="1"
+               begin="0.36s" dur="0.4s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate"
+                         from="-12,0" to="0,0"
+                         begin="0.36s" dur="0.4s" fill="freeze" />
+      <text x="20" y="133" font-weight="bold" fill="#39d353">Stack</text>
+      <text x="110" y="133" fill="#c9d1d9">Arduino, C++</text>
+    </g>
+</svg>

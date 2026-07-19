@@ -12,6 +12,23 @@
 - 📫 How to reach me: gandhi.punya@gmail.com
 - SOME REPOS ARE ON PRIVATE! Contact me for further clarification/info. Will GLADLY share to an extent
 
+<div align="center">
+
+<h3><code>punya@github ~ $ ./contributions.sh</code></h3>
+<img src="./contrib-heatmap.svg" width="860" />
+
+<br><br>
+
+<h3><code>punya@github ~ $ whoami</code></h3>
+<table>
+  <tr>
+    <td valign="top"><img src="./avi-ascii.svg" width="370" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" /></td>
+  </tr>
+</table>
+
+</div>
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/punyagandhi/) [![Gmail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gandhi.punya@gmail.com) [![GitHub followers](https://img.shields.io/github/followers/YOUR-USERNAME?label=Follow&style=social)](https://github.com/punyagandhi?tab=followers)
 
 
