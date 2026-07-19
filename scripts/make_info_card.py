@@ -24,9 +24,13 @@ ROWS = [
     ("Now", "Scaling IVISYX, ISEF & STS Prep, IEEE etc. Prep"),
     ("Stack", "Arduino, C++, Python, JS, React, Git, LaTeX, Linux"),
 ]
+
+
+
+QUOTE = "> Hard work beats talent when talent doesn't work hard.- Tim Notke"
 # ------------------------------------------------------------------------
 
-WIDTH = 660
+WIDTH = 680
 TITLE_BAR_H = 34
 ROW_H = 40
 PADDING_TOP = 26
@@ -44,6 +48,12 @@ GLOW_COLOR = "#c77dff"
 
 ROW_STAGGER = 0.2
 FADE_DUR = 0.45
+
+# --- quote line (typed-out, fills leftover vertical space) ---
+QUOTE_TOP_MARGIN = 34   # space above the quote, below the last row
+QUOTE_FONT_SIZE = 14
+QUOTE_TYPE_CHAR_DUR = 0.045   # seconds per character while "typing"
+QUOTE_BOTTOM_MARGIN = 30
 
 # --- falling binary background settings ---
 RAIN_COLUMN_COUNT = 14
@@ -89,8 +99,42 @@ def build_rain_columns(width: int, height: int) -> str:
     return "\n".join(columns)
 
 
+def build_quote(width: int, y: int, static: bool) -> str:
+    quote_esc = escape_xml(QUOTE)
+    char_count = len(QUOTE)
+    total_type_dur = max(char_count * QUOTE_TYPE_CHAR_DUR, 0.3)
+    begin = len(ROWS) * ROW_STAGGER + FADE_DUR + 0.3
+    approx_char_w = QUOTE_FONT_SIZE * 0.62
+    cursor_x = PADDING_LEFT + char_count * approx_char_w + 4
+
+    if static:
+        return f"""
+    <text x="{PADDING_LEFT}" y="{y}" font-size="{QUOTE_FONT_SIZE}"
+          fill="{VALUE_COLOR}" opacity="0.85">{quote_esc}</text>"""
+
+    return f"""
+    <clipPath id="quoteClip">
+      <rect x="{PADDING_LEFT}" y="{y - QUOTE_FONT_SIZE - 2}" width="0" height="{QUOTE_FONT_SIZE + 6}">
+        <animate attributeName="width" from="0" to="{width}"
+                 begin="{begin:.2f}s" dur="{total_type_dur:.2f}s"
+                 fill="freeze" calcMode="linear" />
+      </rect>
+    </clipPath>
+    <text x="{PADDING_LEFT}" y="{y}" font-size="{QUOTE_FONT_SIZE}"
+          fill="{VALUE_COLOR}" opacity="0.85" clip-path="url(#quoteClip)">{quote_esc}</text>
+    <rect x="{cursor_x}" y="{y - QUOTE_FONT_SIZE}" width="7" height="{QUOTE_FONT_SIZE + 2}"
+          fill="{GLOW_COLOR}" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.01;0.5;1"
+               begin="{begin:.2f}s" dur="{total_type_dur:.2f}s" fill="freeze" />
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s"
+               begin="{begin + total_type_dur:.2f}s" repeatCount="indefinite" />
+    </rect>"""
+
+
 def build_svg(static: bool) -> str:
-    height = TITLE_BAR_H + PADDING_TOP + len(ROWS) * ROW_H + 26
+    content_height = TITLE_BAR_H + PADDING_TOP + len(ROWS) * ROW_H
+    quote_y = content_height + QUOTE_TOP_MARGIN
+    height = quote_y + QUOTE_BOTTOM_MARGIN
 
     rows_svg = []
     for i, (label, value) in enumerate(ROWS):
@@ -118,6 +162,8 @@ def build_svg(static: bool) -> str:
     </g>""")
 
     rain_svg = build_rain_columns(WIDTH, height)
+    quote_svg = build_quote(WIDTH - PADDING_LEFT - 20, quote_y, static)
+    divider_y = content_height + 14
 
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {height}"
      width="{WIDTH}" height="{height}">
@@ -171,6 +217,10 @@ def build_svg(static: bool) -> str:
     <text x="{WIDTH / 2}" y="{TITLE_BAR_H / 2 + 5}" text-anchor="middle" fill="{LABEL_COLOR}" filter="url(#neonGlow)">{escape_xml(USERNAME)}</text>
 
 {chr(10).join(rows_svg)}
+
+    <line x1="{PADDING_LEFT}" y1="{divider_y}" x2="{WIDTH - PADDING_LEFT}" y2="{divider_y}"
+          stroke="{BORDER_COLOR}" stroke-width="1" opacity="0.35" />
+{quote_svg}
   </g>
 
   <!-- outer neon border, drawn last so it sits on top of the clipped content -->
