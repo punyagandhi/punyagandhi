@@ -16,14 +16,14 @@ import sys
 from pathlib import Path
 
 import numpy as np
-from PIL import Image
+from PIL import Image, ImageFilter
 
 RAMP = " .`:-=+*cs#%@"  # light (sparse) -> dark (dense); leading space = blank
 COLS = 140
 ROWS = 74
 CHAR_W = 5.2   # px per character cell (monospace-dependent, tune to taste)
 CHAR_H = 10.0
-FONT_SIZE = 9 
+FONT_SIZE = 9
 FILL_COLOR = "#c9d1d9"          # single light-gray fill
 BG_COLOR = "none"                # transparent background
 ROW_DURATION = 0.35               # seconds for one row's wipe-in
@@ -32,6 +32,9 @@ ROW_STAGGER = 0.045                # seconds between each row starting
 
 def image_to_ascii_grid(path: Path, cols: int, rows: int) -> list[str]:
     img = Image.open(path).convert("L")
+    # a touch of blur before downsampling stops single noisy pixels from
+    # each becoming their own stray, out-of-place character
+    img = img.filter(ImageFilter.GaussianBlur(radius=1.2))
     # aspect correction: character cells are taller than they are wide,
     # so we don't just squash the image to cols x rows directly.
     resized = img.resize((cols, rows), Image.LANCZOS)
