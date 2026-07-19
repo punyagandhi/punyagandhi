@@ -19,7 +19,7 @@ from pathlib import Path
 USERNAME = "punya@github"
 ROWS = [
     ("Role", "Fullstack Developer, Researcher"),
-    ("Now", "Building IVISYX"),
+    ("Now", "Building IVISYX, Prepping for ISEF & STS"),
     ("Stack", "Arduino, C++"),
 ]
 # ------------------------------------------------------------------------
