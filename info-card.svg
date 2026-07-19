@@ -1,51 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 168"
-     width="490" height="168">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 206"
+     width="660" height="206">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0b2e" />
+      <stop offset="100%" stop-color="#0a0414" />
+    </linearGradient>
+
+    <filter id="neonGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="660" height="206" rx="10" />
+    </clipPath>
+  </defs>
+
   <style>
     text {
       font-family: 'Courier New', monospace;
-      font-size: 15px;
+      font-size: 16px;
+    }
+    .rain-col {
+      animation-name: fall;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+    @keyframes fall {
+      from { transform: translateY(0); }
+      to   { transform: translateY(648px); }
     }
   </style>
-  <rect x="0" y="0" width="490" height="168" rx="8"
-        fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
 
-  <!-- title bar -->
-  <rect x="0" y="0" width="490" height="34" rx="8"
-        fill="#30363d" />
-  <rect x="0" y="26" width="490" height="8" fill="#30363d" />
-  <circle cx="18" cy="17.0" r="5" fill="#ff5f56" />
-  <circle cx="36" cy="17.0" r="5" fill="#ffbd2e" />
-  <circle cx="54" cy="17.0" r="5" fill="#27c93f" />
-  <text x="245.0" y="22.0" text-anchor="middle" fill="#8b949e">punya@github</text>
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="660" height="206" fill="url(#cardBg)" />
+
+    <!-- falling binary background effect -->
+    <text class="rain-col" x="23" y="-442" style="animation-duration:5.62s; animation-delay:-0.85s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="23" dy="17">%</tspan><tspan x="23" dy="17">0</tspan><tspan x="23" dy="17">1</tspan><tspan x="23" dy="17">@</tspan><tspan x="23" dy="17">1</tspan><tspan x="23" dy="17">$</tspan><tspan x="23" dy="17">&amp;</tspan><tspan x="23" dy="17">0</tspan><tspan x="23" dy="17">@</tspan><tspan x="23" dy="17">β</tspan><tspan x="23" dy="17">0</tspan><tspan x="23" dy="17">1</tspan><tspan x="23" dy="17">*</tspan><tspan x="23" dy="17">*</tspan><tspan x="23" dy="17">1</tspan><tspan x="23" dy="17">β</tspan><tspan x="23" dy="17">1</tspan><tspan x="23" dy="17">@</tspan><tspan x="23" dy="17">*</tspan><tspan x="23" dy="17">0</tspan><tspan x="23" dy="17">&amp;</tspan><tspan x="23" dy="17">1</tspan><tspan x="23" dy="17">β</tspan><tspan x="23" dy="17">%</tspan><tspan x="23" dy="17">%</tspan><tspan x="23" dy="17">&amp;</tspan></text>
+    <text class="rain-col" x="70" y="-442" style="animation-duration:8.74s; animation-delay:-5.04s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="70" dy="17">*</tspan><tspan x="70" dy="17">0</tspan><tspan x="70" dy="17">β</tspan><tspan x="70" dy="17">0</tspan><tspan x="70" dy="17">@</tspan><tspan x="70" dy="17">α</tspan><tspan x="70" dy="17">Δ</tspan><tspan x="70" dy="17">*</tspan><tspan x="70" dy="17">α</tspan><tspan x="70" dy="17">@</tspan><tspan x="70" dy="17">1</tspan><tspan x="70" dy="17">&amp;</tspan><tspan x="70" dy="17">Δ</tspan><tspan x="70" dy="17">@</tspan><tspan x="70" dy="17">%</tspan><tspan x="70" dy="17">α</tspan><tspan x="70" dy="17">1</tspan><tspan x="70" dy="17">&amp;</tspan><tspan x="70" dy="17">&amp;</tspan><tspan x="70" dy="17">%</tspan><tspan x="70" dy="17">β</tspan><tspan x="70" dy="17">$</tspan><tspan x="70" dy="17">1</tspan><tspan x="70" dy="17">@</tspan><tspan x="70" dy="17">§</tspan><tspan x="70" dy="17">1</tspan></text>
+    <text class="rain-col" x="117" y="-442" style="animation-duration:6.82s; animation-delay:-4.22s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="117" dy="17">#</tspan><tspan x="117" dy="17">%</tspan><tspan x="117" dy="17">@</tspan><tspan x="117" dy="17">*</tspan><tspan x="117" dy="17">$</tspan><tspan x="117" dy="17">#</tspan><tspan x="117" dy="17">&amp;</tspan><tspan x="117" dy="17">#</tspan><tspan x="117" dy="17">$</tspan><tspan x="117" dy="17">Δ</tspan><tspan x="117" dy="17">β</tspan><tspan x="117" dy="17">α</tspan><tspan x="117" dy="17">§</tspan><tspan x="117" dy="17">β</tspan><tspan x="117" dy="17">1</tspan><tspan x="117" dy="17">&amp;</tspan><tspan x="117" dy="17">Δ</tspan><tspan x="117" dy="17">@</tspan><tspan x="117" dy="17">#</tspan><tspan x="117" dy="17">$</tspan><tspan x="117" dy="17">§</tspan><tspan x="117" dy="17">#</tspan><tspan x="117" dy="17">Δ</tspan><tspan x="117" dy="17">&amp;</tspan><tspan x="117" dy="17">1</tspan><tspan x="117" dy="17">1</tspan></text>
+    <text class="rain-col" x="165" y="-442" style="animation-duration:6.56s; animation-delay:-1.08s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="165" dy="17">$</tspan><tspan x="165" dy="17">α</tspan><tspan x="165" dy="17">#</tspan><tspan x="165" dy="17">*</tspan><tspan x="165" dy="17">0</tspan><tspan x="165" dy="17">%</tspan><tspan x="165" dy="17">1</tspan><tspan x="165" dy="17">@</tspan><tspan x="165" dy="17">&amp;</tspan><tspan x="165" dy="17">$</tspan><tspan x="165" dy="17">$</tspan><tspan x="165" dy="17">§</tspan><tspan x="165" dy="17">$</tspan><tspan x="165" dy="17">&amp;</tspan><tspan x="165" dy="17">#</tspan><tspan x="165" dy="17">&amp;</tspan><tspan x="165" dy="17">#</tspan><tspan x="165" dy="17">1</tspan><tspan x="165" dy="17">1</tspan><tspan x="165" dy="17">Δ</tspan><tspan x="165" dy="17">#</tspan><tspan x="165" dy="17">§</tspan><tspan x="165" dy="17">%</tspan><tspan x="165" dy="17">1</tspan><tspan x="165" dy="17">0</tspan><tspan x="165" dy="17">§</tspan></text>
+    <text class="rain-col" x="212" y="-442" style="animation-duration:7.51s; animation-delay:-4.86s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="212" dy="17">%</tspan><tspan x="212" dy="17">#</tspan><tspan x="212" dy="17">Δ</tspan><tspan x="212" dy="17">§</tspan><tspan x="212" dy="17">*</tspan><tspan x="212" dy="17">%</tspan><tspan x="212" dy="17">$</tspan><tspan x="212" dy="17">0</tspan><tspan x="212" dy="17">#</tspan><tspan x="212" dy="17">$</tspan><tspan x="212" dy="17">α</tspan><tspan x="212" dy="17">&amp;</tspan><tspan x="212" dy="17">1</tspan><tspan x="212" dy="17">#</tspan><tspan x="212" dy="17">0</tspan><tspan x="212" dy="17">β</tspan><tspan x="212" dy="17">Δ</tspan><tspan x="212" dy="17">α</tspan><tspan x="212" dy="17">§</tspan><tspan x="212" dy="17">β</tspan><tspan x="212" dy="17">*</tspan><tspan x="212" dy="17">*</tspan><tspan x="212" dy="17">#</tspan><tspan x="212" dy="17">1</tspan><tspan x="212" dy="17">α</tspan><tspan x="212" dy="17">#</tspan></text>
+    <text class="rain-col" x="259" y="-442" style="animation-duration:6.01s; animation-delay:-1.67s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="259" dy="17">α</tspan><tspan x="259" dy="17">*</tspan><tspan x="259" dy="17">@</tspan><tspan x="259" dy="17">Δ</tspan><tspan x="259" dy="17">§</tspan><tspan x="259" dy="17">*</tspan><tspan x="259" dy="17">$</tspan><tspan x="259" dy="17">%</tspan><tspan x="259" dy="17">*</tspan><tspan x="259" dy="17">β</tspan><tspan x="259" dy="17">α</tspan><tspan x="259" dy="17">1</tspan><tspan x="259" dy="17">α</tspan><tspan x="259" dy="17">α</tspan><tspan x="259" dy="17">β</tspan><tspan x="259" dy="17">%</tspan><tspan x="259" dy="17">β</tspan><tspan x="259" dy="17">0</tspan><tspan x="259" dy="17">#</tspan><tspan x="259" dy="17">&amp;</tspan><tspan x="259" dy="17">α</tspan><tspan x="259" dy="17">Δ</tspan><tspan x="259" dy="17">Δ</tspan><tspan x="259" dy="17">0</tspan><tspan x="259" dy="17">α</tspan><tspan x="259" dy="17">*</tspan></text>
+    <text class="rain-col" x="306" y="-442" style="animation-duration:6.67s; animation-delay:-4.07s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="306" dy="17">$</tspan><tspan x="306" dy="17">α</tspan><tspan x="306" dy="17">§</tspan><tspan x="306" dy="17">@</tspan><tspan x="306" dy="17">&amp;</tspan><tspan x="306" dy="17">%</tspan><tspan x="306" dy="17">%</tspan><tspan x="306" dy="17">§</tspan><tspan x="306" dy="17">0</tspan><tspan x="306" dy="17">#</tspan><tspan x="306" dy="17">%</tspan><tspan x="306" dy="17">@</tspan><tspan x="306" dy="17">*</tspan><tspan x="306" dy="17">*</tspan><tspan x="306" dy="17">*</tspan><tspan x="306" dy="17">*</tspan><tspan x="306" dy="17">1</tspan><tspan x="306" dy="17">#</tspan><tspan x="306" dy="17">%</tspan><tspan x="306" dy="17">*</tspan><tspan x="306" dy="17">0</tspan><tspan x="306" dy="17">β</tspan><tspan x="306" dy="17">1</tspan><tspan x="306" dy="17">β</tspan><tspan x="306" dy="17">#</tspan><tspan x="306" dy="17">α</tspan></text>
+    <text class="rain-col" x="353" y="-442" style="animation-duration:4.55s; animation-delay:-2.73s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="353" dy="17">1</tspan><tspan x="353" dy="17">0</tspan><tspan x="353" dy="17">&amp;</tspan><tspan x="353" dy="17">α</tspan><tspan x="353" dy="17">@</tspan><tspan x="353" dy="17">1</tspan><tspan x="353" dy="17">$</tspan><tspan x="353" dy="17">&amp;</tspan><tspan x="353" dy="17">0</tspan><tspan x="353" dy="17">1</tspan><tspan x="353" dy="17">β</tspan><tspan x="353" dy="17">&amp;</tspan><tspan x="353" dy="17">*</tspan><tspan x="353" dy="17">α</tspan><tspan x="353" dy="17">%</tspan><tspan x="353" dy="17">Δ</tspan><tspan x="353" dy="17">$</tspan><tspan x="353" dy="17">&amp;</tspan><tspan x="353" dy="17">$</tspan><tspan x="353" dy="17">#</tspan><tspan x="353" dy="17">1</tspan><tspan x="353" dy="17">1</tspan><tspan x="353" dy="17">#</tspan><tspan x="353" dy="17">#</tspan><tspan x="353" dy="17">#</tspan><tspan x="353" dy="17">#</tspan></text>
+    <text class="rain-col" x="400" y="-442" style="animation-duration:5.56s; animation-delay:-0.8s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="400" dy="17">§</tspan><tspan x="400" dy="17">$</tspan><tspan x="400" dy="17">§</tspan><tspan x="400" dy="17">Δ</tspan><tspan x="400" dy="17">#</tspan><tspan x="400" dy="17">§</tspan><tspan x="400" dy="17">α</tspan><tspan x="400" dy="17">@</tspan><tspan x="400" dy="17">0</tspan><tspan x="400" dy="17">β</tspan><tspan x="400" dy="17">@</tspan><tspan x="400" dy="17">$</tspan><tspan x="400" dy="17">α</tspan><tspan x="400" dy="17">§</tspan><tspan x="400" dy="17">@</tspan><tspan x="400" dy="17">0</tspan><tspan x="400" dy="17">@</tspan><tspan x="400" dy="17">Δ</tspan><tspan x="400" dy="17">%</tspan><tspan x="400" dy="17">1</tspan><tspan x="400" dy="17">§</tspan><tspan x="400" dy="17">Δ</tspan><tspan x="400" dy="17">@</tspan><tspan x="400" dy="17">$</tspan><tspan x="400" dy="17">α</tspan><tspan x="400" dy="17">$</tspan></text>
+    <text class="rain-col" x="447" y="-442" style="animation-duration:7.86s; animation-delay:-4.19s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="447" dy="17">@</tspan><tspan x="447" dy="17">$</tspan><tspan x="447" dy="17">%</tspan><tspan x="447" dy="17">β</tspan><tspan x="447" dy="17">&amp;</tspan><tspan x="447" dy="17">β</tspan><tspan x="447" dy="17">β</tspan><tspan x="447" dy="17">*</tspan><tspan x="447" dy="17">§</tspan><tspan x="447" dy="17">β</tspan><tspan x="447" dy="17">β</tspan><tspan x="447" dy="17">@</tspan><tspan x="447" dy="17">#</tspan><tspan x="447" dy="17">$</tspan><tspan x="447" dy="17">§</tspan><tspan x="447" dy="17">0</tspan><tspan x="447" dy="17">0</tspan><tspan x="447" dy="17">Δ</tspan><tspan x="447" dy="17">#</tspan><tspan x="447" dy="17">Δ</tspan><tspan x="447" dy="17">β</tspan><tspan x="447" dy="17">§</tspan><tspan x="447" dy="17">&amp;</tspan><tspan x="447" dy="17">$</tspan><tspan x="447" dy="17">#</tspan><tspan x="447" dy="17">§</tspan></text>
+    <text class="rain-col" x="495" y="-442" style="animation-duration:8.94s; animation-delay:-8.54s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="495" dy="17">$</tspan><tspan x="495" dy="17">1</tspan><tspan x="495" dy="17">β</tspan><tspan x="495" dy="17">1</tspan><tspan x="495" dy="17">β</tspan><tspan x="495" dy="17">#</tspan><tspan x="495" dy="17">β</tspan><tspan x="495" dy="17">$</tspan><tspan x="495" dy="17">β</tspan><tspan x="495" dy="17">#</tspan><tspan x="495" dy="17">&amp;</tspan><tspan x="495" dy="17">&amp;</tspan><tspan x="495" dy="17">0</tspan><tspan x="495" dy="17">#</tspan><tspan x="495" dy="17">%</tspan><tspan x="495" dy="17">$</tspan><tspan x="495" dy="17">%</tspan><tspan x="495" dy="17">1</tspan><tspan x="495" dy="17">%</tspan><tspan x="495" dy="17">1</tspan><tspan x="495" dy="17">*</tspan><tspan x="495" dy="17">§</tspan><tspan x="495" dy="17">β</tspan><tspan x="495" dy="17">#</tspan><tspan x="495" dy="17">α</tspan><tspan x="495" dy="17">*</tspan></text>
+    <text class="rain-col" x="542" y="-442" style="animation-duration:7.95s; animation-delay:-2.64s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="542" dy="17">§</tspan><tspan x="542" dy="17">*</tspan><tspan x="542" dy="17">#</tspan><tspan x="542" dy="17">*</tspan><tspan x="542" dy="17">§</tspan><tspan x="542" dy="17">1</tspan><tspan x="542" dy="17">§</tspan><tspan x="542" dy="17">α</tspan><tspan x="542" dy="17">α</tspan><tspan x="542" dy="17">α</tspan><tspan x="542" dy="17">0</tspan><tspan x="542" dy="17">α</tspan><tspan x="542" dy="17">&amp;</tspan><tspan x="542" dy="17">#</tspan><tspan x="542" dy="17">%</tspan><tspan x="542" dy="17">α</tspan><tspan x="542" dy="17">&amp;</tspan><tspan x="542" dy="17">&amp;</tspan><tspan x="542" dy="17">#</tspan><tspan x="542" dy="17">%</tspan><tspan x="542" dy="17">$</tspan><tspan x="542" dy="17">α</tspan><tspan x="542" dy="17">@</tspan><tspan x="542" dy="17">@</tspan><tspan x="542" dy="17">α</tspan><tspan x="542" dy="17">0</tspan></text>
+    <text class="rain-col" x="589" y="-442" style="animation-duration:4.07s; animation-delay:-3.95s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="589" dy="17">%</tspan><tspan x="589" dy="17">1</tspan><tspan x="589" dy="17">@</tspan><tspan x="589" dy="17">§</tspan><tspan x="589" dy="17">α</tspan><tspan x="589" dy="17">*</tspan><tspan x="589" dy="17">β</tspan><tspan x="589" dy="17">β</tspan><tspan x="589" dy="17">0</tspan><tspan x="589" dy="17">Δ</tspan><tspan x="589" dy="17">β</tspan><tspan x="589" dy="17">Δ</tspan><tspan x="589" dy="17">@</tspan><tspan x="589" dy="17">β</tspan><tspan x="589" dy="17">&amp;</tspan><tspan x="589" dy="17">$</tspan><tspan x="589" dy="17">Δ</tspan><tspan x="589" dy="17">@</tspan><tspan x="589" dy="17">*</tspan><tspan x="589" dy="17">α</tspan><tspan x="589" dy="17">0</tspan><tspan x="589" dy="17">§</tspan><tspan x="589" dy="17">$</tspan><tspan x="589" dy="17">#</tspan><tspan x="589" dy="17">%</tspan><tspan x="589" dy="17">&amp;</tspan></text>
+    <text class="rain-col" x="636" y="-442" style="animation-duration:8.08s; animation-delay:-4.18s;" font-size="13" fill="#c77dff" opacity="0.16"><tspan x="636" dy="17">@</tspan><tspan x="636" dy="17">α</tspan><tspan x="636" dy="17">@</tspan><tspan x="636" dy="17">α</tspan><tspan x="636" dy="17">@</tspan><tspan x="636" dy="17">@</tspan><tspan x="636" dy="17">0</tspan><tspan x="636" dy="17">#</tspan><tspan x="636" dy="17">α</tspan><tspan x="636" dy="17">&amp;</tspan><tspan x="636" dy="17">0</tspan><tspan x="636" dy="17">α</tspan><tspan x="636" dy="17">α</tspan><tspan x="636" dy="17">α</tspan><tspan x="636" dy="17">#</tspan><tspan x="636" dy="17">&amp;</tspan><tspan x="636" dy="17">§</tspan><tspan x="636" dy="17">1</tspan><tspan x="636" dy="17">@</tspan><tspan x="636" dy="17">0</tspan><tspan x="636" dy="17">$</tspan><tspan x="636" dy="17">%</tspan><tspan x="636" dy="17">@</tspan><tspan x="636" dy="17">@</tspan><tspan x="636" dy="17">@</tspan><tspan x="636" dy="17">#</tspan></text>
+
+    <!-- title bar -->
+    <rect x="0" y="0" width="660" height="34" fill="#2d1b4e" />
+    <circle cx="18" cy="17.0" r="5" fill="#ff5f56" />
+    <circle cx="36" cy="17.0" r="5" fill="#ffbd2e" />
+    <circle cx="54" cy="17.0" r="5" fill="#27c93f" />
+    <text x="330.0" y="22.0" text-anchor="middle" fill="#d896ff" filter="url(#neonGlow)">punya@github</text>
 
 
     <g opacity="0" transform="translate(-12,0)">
       <animate attributeName="opacity" from="0" to="1"
-               begin="0.00s" dur="0.4s" fill="freeze" />
+               begin="0.00s" dur="0.45s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate"
                          from="-12,0" to="0,0"
-                         begin="0.00s" dur="0.4s" fill="freeze" />
-      <text x="20" y="65" font-weight="bold" fill="#39d353">Role</text>
-      <text x="110" y="65" fill="#c9d1d9">Fullstack Developer, Researcher</text>
+                         begin="0.00s" dur="0.45s" fill="freeze" />
+      <text x="28" y="76" font-weight="bold" fill="#d896ff" filter="url(#neonGlow)">Role</text>
+      <text x="138" y="76" fill="#e6d1ff">Fullstack Developer, AI Builder, Researcher</text>
     </g>
 
     <g opacity="0" transform="translate(-12,0)">
       <animate attributeName="opacity" from="0" to="1"
-               begin="0.18s" dur="0.4s" fill="freeze" />
+               begin="0.20s" dur="0.45s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate"
                          from="-12,0" to="0,0"
-                         begin="0.18s" dur="0.4s" fill="freeze" />
-      <text x="20" y="99" font-weight="bold" fill="#39d353">Now</text>
-      <text x="110" y="99" fill="#c9d1d9">Building IVISYX</text>
+                         begin="0.20s" dur="0.45s" fill="freeze" />
+      <text x="28" y="116" font-weight="bold" fill="#d896ff" filter="url(#neonGlow)">Now</text>
+      <text x="138" y="116" fill="#e6d1ff">Scaling IVISYX, ISEF &amp; STS Prep, IEEE etc. Prep</text>
     </g>
 
     <g opacity="0" transform="translate(-12,0)">
       <animate attributeName="opacity" from="0" to="1"
-               begin="0.36s" dur="0.4s" fill="freeze" />
+               begin="0.40s" dur="0.45s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate"
                          from="-12,0" to="0,0"
-                         begin="0.36s" dur="0.4s" fill="freeze" />
-      <text x="20" y="133" font-weight="bold" fill="#39d353">Stack</text>
-      <text x="110" y="133" fill="#c9d1d9">Arduino, C++</text>
+                         begin="0.40s" dur="0.45s" fill="freeze" />
+      <text x="28" y="156" font-weight="bold" fill="#d896ff" filter="url(#neonGlow)">Stack</text>
+      <text x="138" y="156" fill="#e6d1ff">Arduino, C++, Python, JS, React, Git, LaTeX, Linux</text>
     </g>
+  </g>
+
+  <!-- outer neon border, drawn last so it sits on top of the clipped content -->
+  <rect x="1" y="1" width="658" height="204" rx="10"
+        fill="none" stroke="#9d4edd" stroke-width="2" filter="url(#neonGlow)" />
 </svg>
