@@ -8,7 +8,7 @@
 
 ## 🚀 About Me
 - 🔭 Researching, Creating Startups, and Paving my own Path.
-- 🌱 Getting Ready for AAAI, IEEE, ISEF, STS
+- 🌱 Getting Ready for AAAI, IEEE, ISEF, STS, BOC, etc. 
 - 📫 How to reach me: gandhi.punya@gmail.com
 - SOME REPOS ARE ON PRIVATE! Contact me for further clarification/info. Will GLADLY share to an extent
 
