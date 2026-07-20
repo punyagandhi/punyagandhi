@@ -33,6 +33,7 @@
 
 ## Technical Skills
 A good portion of these are languages, and platforms that I have used for a good amount of projects and some of my hobbies. There are also some that I have used once or twice (familiar with), to build small personal projects. There is a good portion of my projects that arent listed in my repos. If you ever need help with a personal project want to look into some of mine, feel free to send me a text/email/dm. I love marketing for my brand IVISYX, and following trends while maintaining a technical/mechanical standpoint, so I am pretty active on all the platforms ive stated. ex: linkedin, discord, gmail, X(prv. Twitter), Reddit, Instagram, Whatsapp.
+
 ![Skills](https://skillicons.dev/icons?i=react,html,css,python,java,ts,js,figma,arduino,discord,vscode,github,cloudflare,supabase,vercel,cpp,firebase,canva,go,php,ruby,latex,jupyter,anaconda,pycharm,photoshop,twitter,linkedin,notion,linux)
 
 ## punyagandhi.js ---- Tenacity💪
