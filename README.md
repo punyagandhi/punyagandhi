@@ -13,12 +13,6 @@
 - SOME REPOS ARE ON PRIVATE! Contact me for further clarification/info. Will GLADLY share to an extent
 
 
-
-## Custom Contribution Map 😝
-<div align="center">
-<img src="./contrib-heatmap.svg" width="860" />
-</div>
-
 ## Who Am I - 😎
 <div align="center">
 <table>
