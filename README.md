@@ -6,6 +6,7 @@
 - 🥋 Martial Artist @ Amerikick Martial Arts
 - 🔧 Mechanical & Entrepreneurship @ FRC 293; FMA
 - 👀 Founder of IVISYX
+- ➕ Founder and Director of the NJ Chapter @ The HUG Foundation
 
 ## 🚀 About Me
 - 🔭 Researching, Creating Startups, and Paving my own Path.
