@@ -1,4 +1,4 @@
-#Aut viam inveniam aut faciam
+## Aut viam inveniam aut faciam
 ## Hi My Name is Punya A. Gandhi 
 - 🎨 Exhibiting Artist @ Stoutsberg Sourland African American Art Museum
 - 🌍 Public Speaker @ Toastmasters YLP
