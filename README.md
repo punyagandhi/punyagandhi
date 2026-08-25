@@ -1,5 +1,5 @@
 # Aut viam inveniam aut faciam
-I will either find a way, or make one. I live by that because everything has a solution and an answer, it a matter of how much effort you are willing to put. Luck isnt just something that happens, its the result of hardwork, seizing opportunities, and preparation. Anything is possible if you put your mind to it, no matter how prodigious, or miniscule the matter is. 
+### I will either find a way, or make one. I live by that because everything has a solution and an answer, it a matter of how much effort you are willing to put. Luck isnt just something that happens, its the result of hardwork, seizing opportunities, and preparation. Anything is possible if you put your mind to it, no matter how prodigious, or miniscule the matter is. 
 ## Hi My Name is Punya A. Gandhi 
 - 🎨 Exhibiting Artist @ Stoutsberg Sourland African American Art Museum
 - 🌍 Public Speaker @ Toastmasters YLP
