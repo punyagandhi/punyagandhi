@@ -58,8 +58,6 @@ Recognition matters. Work good but Project yourself even better. No time like th
 ## Streaks!!!🔥
 - try to stay as dedicated and consistent as possible but some updates take time... Make big edits to my repos frequently to manage everything hyperefficiently, let me know if you see any mistakes or inconsistencies in my public repos, I'll gladly work with you, and take advice. Harsh Criticism might hurt a lot sometimes, but oftentimes its the cold hard truth
 
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=punyagandhi)
-
 ## Contact Me!
 will most likely reply back within 1-2 hours
 - company email: ivisyx@gmail.com
