@@ -30,7 +30,7 @@
 ## Technical Skills
 A good portion of these are languages, and platforms that I have used for a good amount of projects and some of my hobbies. There are also some that I have used once or twice (familiar with), to build small personal projects. There is a good portion of my projects that arent listed in my repos. If you ever need help with a personal project want to look into some of mine, feel free to send me a text/email/dm. I love marketing for my brand IVISYX, and following trends while maintaining a technical/mechanical standpoint, so I am pretty active on all the platforms ive stated. ex: linkedin, discord, gmail, X(prv. Twitter), Reddit, Instagram, Whatsapp.
 
-![Skills](https://skillicons.dev/icons?i=react,html,css,python,arduino,discord,vscode,github,cloudflare,supabase,vercel,firebase,anaconda,pycharm,photoshop,twitter,linkedin,notion,instagram,facebook)
+![Skills](https://skillicons.dev/icons?i=react,html,css,python,arduino,discord,vscode,github,cloudflare,supabase,vercel,firebase,anaconda,pycharm,photoshop,twitter,linkedin,notion,instagram,facebook,reddit,whatsapp)
 
 ## punyagandhi.js ---- Tenacity💪
 the drive and beggining of it all, what objectively defines me and what I'm currently working on, and trying to improve. People make mistakes, but the biggest one is not learning from them. I personally believe that people never chose to be born, and they dont choose to die. But to make the most out of what you have, and give it your 100% makes it all the more worthwile and meaningful. It also leaves, you saying, "oh well..", instead of, "what if.."
