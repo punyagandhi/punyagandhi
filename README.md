@@ -53,8 +53,6 @@ Recognition matters. Work good but Project yourself even better. No time like th
 ## Progress...📈
 - The amount of progress ive made so far, including what I use the most. "Icarus threw his head back and smiled because he finally flew..." - Fiona. Track your progress, if you want to go ahead you have to keep up first. Before you start to run the first step is to walk, and before you walk the first step is to crawl. 
 
-<img width="480" height="534" alt="skill_bars" src="https://github.com/user-attachments/assets/024ce2a5-8d7e-477c-9e98-cb0f54393035" />
-
 ## Streaks!!!🔥
 - try to stay as dedicated and consistent as possible but some updates take time... Make big edits to my repos frequently to manage everything hyperefficiently, let me know if you see any mistakes or inconsistencies in my public repos, I'll gladly work with you, and take advice. Harsh Criticism might hurt a lot sometimes, but oftentimes its the cold hard truth
 
